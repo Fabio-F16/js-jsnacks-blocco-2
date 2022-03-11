@@ -6,33 +6,33 @@ console.log('js okk');
 
 
 
-// 
-
-// for (let i = 0; i < 5; i++){
-
-//     let number = parseInt(prompt('Inserisci un numero!!'));
-   
-//     if(isNaN(number)){
-//         number = parseInt(prompt("Non hai inserito un numero, inserisci un numero"));
-//     }
-//     somma += number;
-// }
-
-// 
-
 let somma = 0;
-let i = 0 
 
-while(i < 5){
+for (let i = 0; i < 5; i++){
 
     let number = parseInt(prompt('Inserisci un numero!!'));
-
+   
     if(isNaN(number)){
         number = parseInt(prompt("Non hai inserito un numero, inserisci un numero"));
     }
-    
     somma += number;
-    
-    i++
 }
+
 console.log('la somma è ' + somma);
+
+// let somma = 0;
+// let i = 0 
+
+// while(i < 5){
+
+//     let number = parseInt(prompt('Inserisci un numero!!'));
+
+//     if(isNaN(number)){
+//         number = parseInt(prompt("Non hai inserito un numero, inserisci un numero"));
+//     }
+    
+//     somma += number;
+    
+//     i++
+// }
+// console.log('la somma è ' + somma);
