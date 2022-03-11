@@ -20,10 +20,13 @@ for (let i = 0; i < 5; i++){
 
 console.log('la somma è ' + somma);
 
-// let somma = 0;
-// let i = 0 
 
-// while(i < 5){
+// con il while
+
+// let somma = 0;
+
+// let i = 0 // chiamo variabile per ciclo while
+// while(i < 5){ // imposto la (condizione)
 
 //     let number = parseInt(prompt('Inserisci un numero!!'));
 
@@ -33,6 +36,6 @@ console.log('la somma è ' + somma);
     
 //     somma += number;
     
-//     i++
+//     i++ //incremento
 // }
 // console.log('la somma è ' + somma);
